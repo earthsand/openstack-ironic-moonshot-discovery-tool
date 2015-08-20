@@ -19,10 +19,10 @@ Pre requisite to load the driver is to give entry points in
 setup.py and run install. stevedore library is used to load
 the driver
 The tool is invoked with the following commands -
-To Discovery and Create
-  python chassis_discovery_tool.py -a create -i <hostname>
-             -u <username> -p <password> -d <driver> -s <discovery_driver>
+To Discovery and Create:
+  "python chassis_discovery_tool.py -a create -i <hostname>
+             -u <username> -p <password> -d <driver> -s <discovery_driver>"
 Sample cmd to update hostname:
-  python chassis_discovery_tool.py -a update -i <hostname> -c <chassis_uuid>
+  "python chassis_discovery_tool.py -a update -i <hostname> -c <chassis_uuid>"
 Sample cmd to delete chassis:
-  python chassis_discovery_tool.py -a delete -c <chassis_uuid>
+  "python chassis_discovery_tool.py -a delete -c <chassis_uuid>"
