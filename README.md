@@ -1,7 +1,7 @@
 # openstack-ironic-moonshot-discovery-tool
 Openstack Ironic Chassis Discovery Tool for Moonshot hardware
 
-A new tool will be developed to query nodes and their hardware properties
+A new tool to query nodes and their hardware properties
 at chassis level and register the node information in the Ironic
 database.
 This tool targets chassis management of micro-servers or similar enlosures
